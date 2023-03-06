@@ -1,0 +1,18 @@
+.navbar {
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar img {
+    margin-right: 45vw;
+}
+
+.navbar a {
+    font-family: Baron Neue;
+    margin: 0vh 1vw;
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    letter-spacing: 4px;
+}

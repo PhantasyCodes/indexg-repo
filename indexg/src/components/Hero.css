@@ -1,0 +1,61 @@
+.hero-content {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-left {
+    margin-left: 10vw;
+    width: 60vw;
+}
+
+.hero-left h1 {
+    color: white;
+    font-family: Baron Neue;
+    font-size: 7vw;
+    letter-spacing: 20px;
+    max-width: 50vw;
+    margin-bottom: 2vh;
+}
+
+.hero-left p {
+    font-size: 2vw;
+    max-width: 40vw;
+}
+
+.hero-right {
+    height: 80vh;
+    border-left: 5px solid white;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-right-item {
+    display: flex;
+}
+
+.hero-right-item img {
+    width: 5vw;
+    height: 5vw;
+    margin-right: 2vw;
+}
+
+.hero-right p {
+    font-size: 2vw;
+    margin-bottom: 7vh;
+}
+
+.special {
+    position: absolute;
+    color: #EA1626;
+    font-family: Furore;
+    left: 40vw;
+    top: 45vh;
+    letter-spacing: 5px;
+}
+
+.hero-right span {
+    font-family: Addington Bold;
+}
