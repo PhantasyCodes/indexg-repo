@@ -1,18 +1,22 @@
 .navbar {
-    margin-left: 5vw;
+    margin: 2vh 5vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0px 2vw;
     height: 10vh;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 
 .navbar img {
-    margin-right: 45vw;
+    max-width: 7vw;
+    margin-top: -2vh;
 }
 
 .navbar a {
     font-family: Baron Neue;
     margin: 0vh 1vw;
-    font-size: 1.3vw;
-    margin-top: 3vh;
+    font-size: 1vw;
     letter-spacing: 4px;
 }

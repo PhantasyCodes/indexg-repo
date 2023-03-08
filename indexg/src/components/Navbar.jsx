@@ -6,12 +6,21 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar'>
+        <div className="links">
+          {/* <a href="#">events</a>
+          <a href="#">services</a> */}
+          <a href="#">about</a>
+          <a href="#">gallery</a>
+          <a href="#">blog</a>
+        </div>
         <img src={logo} alt="logo" />
-        <a href="#">events</a>
-        <a href="#">services</a>
-        <a href="#">about</a>
-        <a href="#">gallery</a>
-        <a href="#">blog</a>
+        <div className="links">
+          {/* <a href="#">events</a>
+          <a href="#">services</a> */}
+          <a href="#">about</a>
+          <a href="#">gallery</a>
+          <a href="#">blog</a>
+        </div>
     </div>
   )
 }
