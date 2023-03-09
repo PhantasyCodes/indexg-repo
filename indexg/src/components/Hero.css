@@ -1,3 +1,7 @@
+.hero-image {
+    max-width: 40vw;
+}
+
 .hero-content {
     height: 90vh;
     display: flex;
@@ -8,8 +12,8 @@
     width: 60vw;
 }
 
-.hero-left h1 {
-    color: #EA1626;
+.title {
+    overflow: hidden;
     font-family: Baron Neue;
     font-size: 7vw;
     letter-spacing: 20px;
@@ -18,8 +22,22 @@
     margin-top: 10vh;
 }
 
-.hero-left h1 span {
+.title span {
+    display: inline-block;
+    position: relative;
+}
+
+.first {
+    color: #EA1626;
+}
+
+.second {
     color: #2A10B3;
+}
+
+.hero-left {
+    position: absolute;
+    top: 17vh;
 }
 
 .hero-left p {
@@ -35,13 +53,11 @@
     font-size: 1.5vw;
     padding: 1.5vh 2vw;
     padding-top: 1vh;
+    transition: 0.3s;
 }
 
-.hero-right {
-    margin-top: 10vh;
-    /* margin-right: 5vw; */
-}
+.hero-left a:hover {
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 
-.hero-right img {
-    max-width: 40vw;
 }

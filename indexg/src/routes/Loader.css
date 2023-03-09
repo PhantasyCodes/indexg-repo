@@ -1,0 +1,23 @@
+.navbar2 {
+    margin: 2vh 2vw;
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2vw;
+    height: 10vh;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    position: absolute;
+    margin-top: -2vh;
+    left: 43vw;
+}
+
+.hero-image {
+    max-width: 40vw;
+    position: absolute;
+}
