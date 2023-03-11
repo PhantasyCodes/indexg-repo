@@ -22,15 +22,15 @@
 .links {
     width: 20vw;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     overflow: hidden;
 }
 
 .navbar a {
-    font-family: Baron Neue;
-    /* margin: 0vh 1vw; */
+    font-family: Furore;
+    margin: 0vh 1vw;
     font-size: 1vw;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     display: inline-block;
     position: relative;
 }

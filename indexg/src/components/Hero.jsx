@@ -93,11 +93,11 @@ const Hero = () => {
                 </motion.div>
                 <motion.p
                   initial={{opacity:0}}
-                  animate={{opacity:1, transition: {delay:3.3}}}>
+                  animate={{opacity:1, transition: {delay:2}}}>
                     Welcome to Kenya's pioneer gaming agency, with over 20 members and a diverse community of gamers</motion.p>
                 <motion.a 
                   initial={{opacity:0}}
-                  animate={{opacity:1, transition: {delay:3.3}}}
+                  animate={{opacity:1, transition: {delay:2}}}
                   href="#">join now</motion.a>
             </div>
         </div>
