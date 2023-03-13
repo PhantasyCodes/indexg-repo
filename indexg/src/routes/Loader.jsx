@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {motion} from 'framer-motion'
 
 import logo from '../assets/logo.png'
-import hero1 from '../assets/images/hero1.png'
+import hero1 from '../assets/images/byadema.png'
+// import hero2 from '../assets/images/hero2.png'
 
 import './Loader.css'
 
 const transition = {duration: .6, ease: [0.43, 0.13, 0.23, 0.96]}
+// const imageArray = [hero1, hero2]
 
 function Loader() {
+
   return (
     <div className="loader">
         <div className='navbar2'>

@@ -48,11 +48,10 @@ function Tournaments() {
 
   const {ref, inView } = useInView()
   const animation = useAnimation()
-  console.log("Yo")
 
   useEffect(() => {
-    console.log("use effect hook, inView = ", inView)
-    console.log("nice")
+    // console.log("use effect hook, inView = ", inView)
+    // console.log("nice")
     if(inView) {
       animation.start({
         x:-200,

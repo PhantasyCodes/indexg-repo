@@ -8,6 +8,7 @@ import './Home.css'
 import Hero from '../components/Hero'
 import Tournaments from '../components/Tournaments'
 import Shop from '../components/Shop'
+import Footer from '../components/Footer'
 
 const marqueeVariants = {
   animate: {
@@ -31,7 +32,7 @@ const Home = () => {
         <motion.h1 variants={marqueeVariants}
           animate="animate" >monthly tournaments are now live! sign up now!</motion.h1>
       </motion.div>
-      <Parallax pages={3} className="parallax-region">
+      <Parallax pages={3}>
         <ParallaxLayer speed={1}>
           <Hero />
         </ParallaxLayer>
@@ -40,6 +41,9 @@ const Home = () => {
         </ParallaxLayer>
         <ParallaxLayer offset={1.50} speed={1}>
           <Shop />
+        </ParallaxLayer>
+        <ParallaxLayer offset={2.1} speed={1}>
+          <Footer />
         </ParallaxLayer>
       </Parallax>
     </div>

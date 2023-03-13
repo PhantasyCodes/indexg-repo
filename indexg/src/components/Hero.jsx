@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 
-import hero1 from '../assets/images/hero1.png'
+import hero1 from '../assets/images/byadema.png'
 
 import React from 'react'
 import Navbar from './Navbar'
